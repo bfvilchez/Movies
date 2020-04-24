@@ -9,8 +9,8 @@
 import Foundation
 
 struct Movie: Equatable {
-    let title: String
-    let rating: String
+    var title: String
+    var rating: String
     
     init(title: String,rating: String) {
         self.title = title
