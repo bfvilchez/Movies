@@ -13,6 +13,7 @@
 		DDA5BF18245349D200FB823D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDA5BF17245349D200FB823D /* Assets.xcassets */; };
 		DDA5BF1B245349D200FB823D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDA5BF19245349D200FB823D /* LaunchScreen.storyboard */; };
 		DDA5BF2924534B5E00FB823D /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA5BF2824534B5E00FB823D /* Movie.swift */; };
+		DDA5BF2B24534BDF00FB823D /* MovieController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA5BF2A24534BDF00FB823D /* MovieController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		DDA5BF1A245349D200FB823D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDA5BF1C245349D200FB823D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDA5BF2824534B5E00FB823D /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		DDA5BF2A24534BDF00FB823D /* MovieController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 		DDA5BF2424534AF700FB823D /* Model Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				DDA5BF2A24534BDF00FB823D /* MovieController.swift */,
 			);
 			path = "Model Controllers";
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDA5BF2B24534BDF00FB823D /* MovieController.swift in Sources */,
 				DDA5BF0F245349D000FB823D /* AppDelegate.swift in Sources */,
 				DDA5BF11245349D000FB823D /* SceneDelegate.swift in Sources */,
 				DDA5BF2924534B5E00FB823D /* Movie.swift in Sources */,
