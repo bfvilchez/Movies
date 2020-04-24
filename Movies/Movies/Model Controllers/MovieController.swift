@@ -26,6 +26,11 @@ class MovieController {
         self.movies[index].title = title
     }
     
+    func updateHasBeenSeen(forMovie movie: Movie) {
+        guard let index = movies.firstIndex(of: movie) else { fatalError("Error updating movie")}
+        self.movies[index].hasBeenSeen = !self.movies[index].hasBeenSeen
+    }
+    
     func deleteMovie(_ movie: Movie) {
         guard let index = self.movies.firstIndex(of: movie) else { fatalError("Movie doesnt exist in Array 😑😔") }
         self.movies.remove(at: index)

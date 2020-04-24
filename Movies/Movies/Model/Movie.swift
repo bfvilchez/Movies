@@ -11,9 +11,11 @@ import Foundation
 struct Movie: Equatable {
     var title: String
     var rating: String
+    var hasBeenSeen: Bool
     
-    init(title: String,rating: String) {
+    init(title: String,rating: String, hasBeenSeen: Bool = false) {
         self.title = title
         self.rating = rating
+        self.hasBeenSeen = hasBeenSeen
     }
 }
